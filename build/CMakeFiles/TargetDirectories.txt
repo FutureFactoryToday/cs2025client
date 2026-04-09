@@ -1,0 +1,3 @@
+/home/vboxuser/projects/cs2025client/build/CMakeFiles/CS25Client.dir
+/home/vboxuser/projects/cs2025client/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/projects/cs2025client/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -Wl,--dependency-file=CMakeFiles/CS25Client.dir/link.d CMakeFiles/CS25Client.dir/main.cpp.o -o CS25Client  -L/usr/lib/x86_64-linux-gnu -pthread -lwx_gtk3u_core-3.2 -lwx_baseu-3.2
