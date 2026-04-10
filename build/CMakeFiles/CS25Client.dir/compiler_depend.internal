@@ -551,8 +551,7 @@ CMakeFiles/CS25Client.dir/app.cpp.o
 
 CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o
  /home/vboxuser/projects/cs2025client/csConnectWidget.cpp
- //home/vboxuser/projects/cs2025client/csConnectWidget.cpp
- //home/vboxuser/projects/cs2025client/csConnectWidget.h
+ /home/vboxuser/projects/cs2025client/csConnectWidget.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h

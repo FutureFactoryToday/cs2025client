@@ -19,6 +19,9 @@ CsMainFrame::CsMainFrame(wxFrame *frame, const wxString &title)
 	wxPanel *panel = new wxPanel(backgroundPanel, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
 	panel->SetBackgroundColour(wxColour(0,200,0));
 	topSizer->Add(panel, 2, wxEXPAND|wxALL);
+
+	wxStatusBar *statusBar = new wxStatusBar(this, wxID_ANY, wxSTB_DEFAULT_STYLE);
+	SetStatusBar(statusBar);
 }
 
 void CsMainFrame::OnClose(wxCloseEvent &event)

@@ -549,8 +549,7 @@ CMakeFiles/CS25Client.dir/app.cpp.o: /home/vboxuser/projects/cs2025client/app.cp
   /usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.2/wx/setup.h
 
 CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o: /home/vboxuser/projects/cs2025client/csConnectWidget.cpp \
-  //home/vboxuser/projects/cs2025client/csConnectWidget.cpp \
-  //home/vboxuser/projects/cs2025client/csConnectWidget.h \
+  /home/vboxuser/projects/cs2025client/csConnectWidget.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1877,7 +1876,7 @@ CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o:
 
 //home/vboxuser/projects/cs2025client/csMainFrame.cpp:
 
-//home/vboxuser/projects/cs2025client/csConnectWidget.cpp:
+/home/vboxuser/projects/cs2025client/csConnectWidget.h:
 
 /home/vboxuser/projects/cs2025client/csConnectWidget.cpp:
 
