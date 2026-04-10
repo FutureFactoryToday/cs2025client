@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vboxuser/projects/cs2025client/main.cpp" "CMakeFiles/CS25Client.dir/main.cpp.o" "gcc" "CMakeFiles/CS25Client.dir/main.cpp.o.d"
+  "//home/vboxuser/projects/cs2025client/app.cpp" "CMakeFiles/CS25Client.dir/app.cpp.o" "gcc" "CMakeFiles/CS25Client.dir/app.cpp.o.d"
+  "//home/vboxuser/projects/cs2025client/csConnectWidget.cpp" "CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o" "gcc" "CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o.d"
+  "//home/vboxuser/projects/cs2025client/csMainFrame.cpp" "CMakeFiles/CS25Client.dir/csMainFrame.cpp.o" "gcc" "CMakeFiles/CS25Client.dir/csMainFrame.cpp.o.d"
   "" "CS25Client" "gcc" "CMakeFiles/CS25Client.dir/link.d"
   )
 

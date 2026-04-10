@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/projects/cs2025client
+CMAKE_SOURCE_DIR = //home/vboxuser/projects/cs2025client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vboxuser/projects/cs2025client/build
+CMAKE_BINARY_DIR = //home/vboxuser/projects/cs2025client/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CS25Client.dir/depend.make
@@ -72,32 +72,64 @@ include CMakeFiles/CS25Client.dir/flags.make
 CMakeFiles/CS25Client.dir/codegen:
 .PHONY : CMakeFiles/CS25Client.dir/codegen
 
-CMakeFiles/CS25Client.dir/main.cpp.o: CMakeFiles/CS25Client.dir/flags.make
-CMakeFiles/CS25Client.dir/main.cpp.o: /home/vboxuser/projects/cs2025client/main.cpp
-CMakeFiles/CS25Client.dir/main.cpp.o: CMakeFiles/CS25Client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS25Client.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CS25Client.dir/main.cpp.o -MF CMakeFiles/CS25Client.dir/main.cpp.o.d -o CMakeFiles/CS25Client.dir/main.cpp.o -c /home/vboxuser/projects/cs2025client/main.cpp
+CMakeFiles/CS25Client.dir/app.cpp.o: CMakeFiles/CS25Client.dir/flags.make
+CMakeFiles/CS25Client.dir/app.cpp.o: //home/vboxuser/projects/cs2025client/app.cpp
+CMakeFiles/CS25Client.dir/app.cpp.o: CMakeFiles/CS25Client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=//home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS25Client.dir/app.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CS25Client.dir/app.cpp.o -MF CMakeFiles/CS25Client.dir/app.cpp.o.d -o CMakeFiles/CS25Client.dir/app.cpp.o -c //home/vboxuser/projects/cs2025client/app.cpp
 
-CMakeFiles/CS25Client.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CS25Client.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/projects/cs2025client/main.cpp > CMakeFiles/CS25Client.dir/main.cpp.i
+CMakeFiles/CS25Client.dir/app.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CS25Client.dir/app.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/vboxuser/projects/cs2025client/app.cpp > CMakeFiles/CS25Client.dir/app.cpp.i
 
-CMakeFiles/CS25Client.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CS25Client.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/projects/cs2025client/main.cpp -o CMakeFiles/CS25Client.dir/main.cpp.s
+CMakeFiles/CS25Client.dir/app.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CS25Client.dir/app.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/vboxuser/projects/cs2025client/app.cpp -o CMakeFiles/CS25Client.dir/app.cpp.s
+
+CMakeFiles/CS25Client.dir/csMainFrame.cpp.o: CMakeFiles/CS25Client.dir/flags.make
+CMakeFiles/CS25Client.dir/csMainFrame.cpp.o: //home/vboxuser/projects/cs2025client/csMainFrame.cpp
+CMakeFiles/CS25Client.dir/csMainFrame.cpp.o: CMakeFiles/CS25Client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=//home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CS25Client.dir/csMainFrame.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CS25Client.dir/csMainFrame.cpp.o -MF CMakeFiles/CS25Client.dir/csMainFrame.cpp.o.d -o CMakeFiles/CS25Client.dir/csMainFrame.cpp.o -c //home/vboxuser/projects/cs2025client/csMainFrame.cpp
+
+CMakeFiles/CS25Client.dir/csMainFrame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CS25Client.dir/csMainFrame.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/vboxuser/projects/cs2025client/csMainFrame.cpp > CMakeFiles/CS25Client.dir/csMainFrame.cpp.i
+
+CMakeFiles/CS25Client.dir/csMainFrame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CS25Client.dir/csMainFrame.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/vboxuser/projects/cs2025client/csMainFrame.cpp -o CMakeFiles/CS25Client.dir/csMainFrame.cpp.s
+
+CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o: CMakeFiles/CS25Client.dir/flags.make
+CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o: //home/vboxuser/projects/cs2025client/csConnectWidget.cpp
+CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o: CMakeFiles/CS25Client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=//home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o -MF CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o.d -o CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o -c //home/vboxuser/projects/cs2025client/csConnectWidget.cpp
+
+CMakeFiles/CS25Client.dir/csConnectWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CS25Client.dir/csConnectWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/vboxuser/projects/cs2025client/csConnectWidget.cpp > CMakeFiles/CS25Client.dir/csConnectWidget.cpp.i
+
+CMakeFiles/CS25Client.dir/csConnectWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CS25Client.dir/csConnectWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/vboxuser/projects/cs2025client/csConnectWidget.cpp -o CMakeFiles/CS25Client.dir/csConnectWidget.cpp.s
 
 # Object files for target CS25Client
 CS25Client_OBJECTS = \
-"CMakeFiles/CS25Client.dir/main.cpp.o"
+"CMakeFiles/CS25Client.dir/app.cpp.o" \
+"CMakeFiles/CS25Client.dir/csMainFrame.cpp.o" \
+"CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o"
 
 # External object files for target CS25Client
 CS25Client_EXTERNAL_OBJECTS =
 
-CS25Client: CMakeFiles/CS25Client.dir/main.cpp.o
+CS25Client: CMakeFiles/CS25Client.dir/app.cpp.o
+CS25Client: CMakeFiles/CS25Client.dir/csMainFrame.cpp.o
+CS25Client: CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o
 CS25Client: CMakeFiles/CS25Client.dir/build.make
 CS25Client: CMakeFiles/CS25Client.dir/compiler_depend.ts
 CS25Client: CMakeFiles/CS25Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CS25Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=//home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CS25Client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CS25Client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +141,6 @@ CMakeFiles/CS25Client.dir/clean:
 .PHONY : CMakeFiles/CS25Client.dir/clean
 
 CMakeFiles/CS25Client.dir/depend:
-	cd /home/vboxuser/projects/cs2025client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/projects/cs2025client /home/vboxuser/projects/cs2025client /home/vboxuser/projects/cs2025client/build /home/vboxuser/projects/cs2025client/build /home/vboxuser/projects/cs2025client/build/CMakeFiles/CS25Client.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd //home/vboxuser/projects/cs2025client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" //home/vboxuser/projects/cs2025client //home/vboxuser/projects/cs2025client //home/vboxuser/projects/cs2025client/build //home/vboxuser/projects/cs2025client/build //home/vboxuser/projects/cs2025client/build/CMakeFiles/CS25Client.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CS25Client.dir/depend
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/projects/cs2025client
+CMAKE_SOURCE_DIR = //home/vboxuser/projects/cs2025client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vboxuser/projects/cs2025client/build
+CMAKE_BINARY_DIR = //home/vboxuser/projects/cs2025client/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/projects/cs2025client/build/CMakeFiles /home/vboxuser/projects/cs2025client/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start //home/vboxuser/projects/cs2025client/build/CMakeFiles //home/vboxuser/projects/cs2025client/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/projects/cs2025client/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start //home/vboxuser/projects/cs2025client/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,77 @@ CS25Client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/build
 .PHONY : CS25Client/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+app.o: app.cpp.o
+.PHONY : app.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/main.cpp.o
-.PHONY : main.cpp.o
+app.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/app.cpp.o
+.PHONY : app.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+app.i: app.cpp.i
+.PHONY : app.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/main.cpp.i
-.PHONY : main.cpp.i
+app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/app.cpp.i
+.PHONY : app.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+app.s: app.cpp.s
+.PHONY : app.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/main.cpp.s
-.PHONY : main.cpp.s
+app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/app.cpp.s
+.PHONY : app.cpp.s
+
+csConnectWidget.o: csConnectWidget.cpp.o
+.PHONY : csConnectWidget.o
+
+# target to build an object file
+csConnectWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o
+.PHONY : csConnectWidget.cpp.o
+
+csConnectWidget.i: csConnectWidget.cpp.i
+.PHONY : csConnectWidget.i
+
+# target to preprocess a source file
+csConnectWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csConnectWidget.cpp.i
+.PHONY : csConnectWidget.cpp.i
+
+csConnectWidget.s: csConnectWidget.cpp.s
+.PHONY : csConnectWidget.s
+
+# target to generate assembly for a file
+csConnectWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csConnectWidget.cpp.s
+.PHONY : csConnectWidget.cpp.s
+
+csMainFrame.o: csMainFrame.cpp.o
+.PHONY : csMainFrame.o
+
+# target to build an object file
+csMainFrame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csMainFrame.cpp.o
+.PHONY : csMainFrame.cpp.o
+
+csMainFrame.i: csMainFrame.cpp.i
+.PHONY : csMainFrame.i
+
+# target to preprocess a source file
+csMainFrame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csMainFrame.cpp.i
+.PHONY : csMainFrame.cpp.i
+
+csMainFrame.s: csMainFrame.cpp.s
+.PHONY : csMainFrame.s
+
+# target to generate assembly for a file
+csMainFrame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csMainFrame.cpp.s
+.PHONY : csMainFrame.cpp.s
 
 # Help Target
 help:
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CS25Client"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... app.o"
+	@echo "... app.i"
+	@echo "... app.s"
+	@echo "... csConnectWidget.o"
+	@echo "... csConnectWidget.i"
+	@echo "... csConnectWidget.s"
+	@echo "... csMainFrame.o"
+	@echo "... csMainFrame.i"
+	@echo "... csMainFrame.s"
 .PHONY : help
 
 
