@@ -1,7 +1,7 @@
 CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o: \
- //home/vboxuser/projects/cs2025client/csConnectWidget.cpp \
+ /home/vboxuser/projects/cs2025client/csConnectWidget.cpp \
  /usr/include/stdc-predef.h \
- //home/vboxuser/projects/cs2025client/csConnectWidget.h \
+ /home/vboxuser/projects/cs2025client/csConnectWidget.h \
  /usr/include/wx-3.2/wx/wx.h /usr/include/wx-3.2/wx/defs.h \
  /usr/include/wx-3.2/wx/platform.h /usr/include/wx-3.2/wx/compiler.h \
  /usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.2/wx/setup.h \

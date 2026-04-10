@@ -16,9 +16,9 @@ CsConnectWidget::CsConnectWidget(wxWindow *parent, wxWindowID id, const wxPoint 
 	saveExchange = new wxButton(this, wxID_ANY, wxT("Save Exchange"), wxDefaultPosition, wxDefaultSize, 0);
 	saveExchange->Disable();
 
-	backgroundSizer->Add(portLabel, 0, wxALIGN_CENTER_VERTICAL|wxLEFT, 5);
-	backgroundSizer->Add(portSelector, 0, wxALL, 5);
-	backgroundSizer->Add(startOfExchange, 0, wxALL, 5);
-	backgroundSizer->Add(endOfExchange, 0, wxALL, 5);
-	backgroundSizer->Add(saveExchange, 0, wxALL, 5);
+	backgroundSizer->Add(portLabel, 0, wxALIGN_CENTER_VERTICAL|wxLEFT, 10);
+	backgroundSizer->Add(portSelector, 0, wxALL, 10);
+	backgroundSizer->Add(startOfExchange, 0, wxALL, 10);
+	backgroundSizer->Add(endOfExchange, 0, wxALL, 10);
+	backgroundSizer->Add(saveExchange, 0, wxALL, 10);
 }
