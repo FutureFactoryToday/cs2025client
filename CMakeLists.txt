@@ -8,6 +8,14 @@ find_package(wxWidgets REQUIRED core base)
 
 include(${wxWidgets_USE_FILE})
 
-add_executable(${PROJECT_NAME} app.cpp csMainFrame.h csMainFrame.cpp csConnectWidget.h csConnectWidget.cpp)
+add_executable(${PROJECT_NAME}
+       	app.cpp
+       	csMainFrame.h
+       	csMainFrame.cpp
+       	csConnectWidget.h
+       	csConnectWidget.cpp
+	csMainControlWidget.h
+	csMainControlWidget.cpp
+)
 
 target_link_libraries(${PROJECT_NAME} ${wxWidgets_LIBRARIES})

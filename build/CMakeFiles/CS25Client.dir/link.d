@@ -5,6 +5,7 @@ CS25Client: \
   CMakeFiles/CS25Client.dir/app.cpp.o \
   CMakeFiles/CS25Client.dir/csMainFrame.cpp.o \
   CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o \
+  CMakeFiles/CS25Client.dir/csMainControlWidget.cpp.o \
   /usr/lib/x86_64-linux-gnu/libwx_gtk3u_core-3.2.so \
   /usr/lib/x86_64-linux-gnu/libwx_baseu-3.2.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
@@ -125,6 +126,8 @@ CMakeFiles/CS25Client.dir/app.cpp.o:
 CMakeFiles/CS25Client.dir/csMainFrame.cpp.o:
 
 CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o:
+
+CMakeFiles/CS25Client.dir/csMainControlWidget.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libwx_gtk3u_core-3.2.so:
 
