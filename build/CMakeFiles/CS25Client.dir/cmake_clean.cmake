@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CS25Client.dir/link.d"
   "CMakeFiles/CS25Client.dir/app.cpp.o"
   "CMakeFiles/CS25Client.dir/app.cpp.o.d"
+  "CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.o"
+  "CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.o.d"
   "CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o"
   "CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o.d"
   "CMakeFiles/CS25Client.dir/csMainControlWidget.cpp.o"

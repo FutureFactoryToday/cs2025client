@@ -16,6 +16,8 @@ add_executable(${PROJECT_NAME}
        	csConnectWidget.cpp
 	csMainControlWidget.h
 	csMainControlWidget.cpp
+	csACHTControlWidget.h
+	csACHTControlWidget.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} ${wxWidgets_LIBRARIES})

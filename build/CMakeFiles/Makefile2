@@ -85,12 +85,12 @@ clean: CMakeFiles/CS25Client.dir/clean
 CMakeFiles/CS25Client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target CS25Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target CS25Client"
 .PHONY : CMakeFiles/CS25Client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CS25Client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/projects/cs2025client/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/projects/cs2025client/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CS25Client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/projects/cs2025client/build/CMakeFiles 0
 .PHONY : CMakeFiles/CS25Client.dir/rule
@@ -102,7 +102,7 @@ CS25Client: CMakeFiles/CS25Client.dir/rule
 # codegen rule for target.
 CMakeFiles/CS25Client.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target CS25Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target CS25Client"
 .PHONY : CMakeFiles/CS25Client.dir/codegen
 
 # clean rule for target.

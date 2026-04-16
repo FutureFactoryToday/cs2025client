@@ -3,6 +3,7 @@
 
 #include <wx/wx.h>
 #include "csConnectWidget.h"
+#include "csMainControlWidget.h"
 
 class CsMainFrame : public wxFrame
 {

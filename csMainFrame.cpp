@@ -15,10 +15,13 @@ CsMainFrame::CsMainFrame(wxFrame *frame, const wxString &title)
 	CsConnectWidget *connectWidget = new CsConnectWidget(backgroundPanel, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
 	//connectWidget->SetBackgroundColour(wxColour(200,0,0));
 	topSizer->Add(connectWidget, 0, wxEXPAND|wxALL);
+	topSizer->Add(0,0,1,wxEXPAND,1);
 
-	wxPanel *panel = new wxPanel(backgroundPanel, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
-	panel->SetBackgroundColour(wxColour(0,200,0));
-	topSizer->Add(panel, 2, wxEXPAND|wxALL);
+	CsMainControlWidget *mainControlWidget = new CsMainControlWidget(backgroundPanel, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
+	topSizer->Add(mainControlWidget, 0, wxEXPAND|wxALL);
+	//wxPanel *panel = new wxPanel(backgroundPanel, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
+	//panel->SetBackgroundColour(wxColour(0,200,0));
+	//topSizer->Add(panel, 2, wxEXPAND|wxALL);
 
 	wxStatusBar *statusBar = new wxStatusBar(this, wxID_ANY, wxSTB_DEFAULT_STYLE);
 	SetStatusBar(statusBar);

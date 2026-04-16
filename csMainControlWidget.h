@@ -2,7 +2,8 @@
 #define CSMAINCONTROLWIDGET_H
 
 #include <wx/wx.h>
-
+#include <wx/notebook.h>
+#include "csACHTControlWidget.h"
 class CsMainControlWidget : public wxPanel
 {
 public:

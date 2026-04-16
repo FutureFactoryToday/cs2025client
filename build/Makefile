@@ -153,6 +153,30 @@ app.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/app.cpp.s
 .PHONY : app.cpp.s
 
+csACHTControlWidget.o: csACHTControlWidget.cpp.o
+.PHONY : csACHTControlWidget.o
+
+# target to build an object file
+csACHTControlWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.o
+.PHONY : csACHTControlWidget.cpp.o
+
+csACHTControlWidget.i: csACHTControlWidget.cpp.i
+.PHONY : csACHTControlWidget.i
+
+# target to preprocess a source file
+csACHTControlWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.i
+.PHONY : csACHTControlWidget.cpp.i
+
+csACHTControlWidget.s: csACHTControlWidget.cpp.s
+.PHONY : csACHTControlWidget.s
+
+# target to generate assembly for a file
+csACHTControlWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.s
+.PHONY : csACHTControlWidget.cpp.s
+
 csConnectWidget.o: csConnectWidget.cpp.o
 .PHONY : csConnectWidget.o
 
@@ -237,6 +261,9 @@ help:
 	@echo "... app.o"
 	@echo "... app.i"
 	@echo "... app.s"
+	@echo "... csACHTControlWidget.o"
+	@echo "... csACHTControlWidget.i"
+	@echo "... csACHTControlWidget.s"
 	@echo "... csConnectWidget.o"
 	@echo "... csConnectWidget.i"
 	@echo "... csConnectWidget.s"

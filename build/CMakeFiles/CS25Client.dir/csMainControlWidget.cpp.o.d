@@ -386,4 +386,10 @@ CMakeFiles/CS25Client.dir/csMainControlWidget.cpp.o: \
  /usr/include/wx-3.2/wx/valtext.h /usr/include/wx-3.2/wx/filedlg.h \
  /usr/include/wx-3.2/wx/gtk/filedlg.h \
  /usr/include/wx-3.2/wx/gtk/filectrl.h /usr/include/wx-3.2/wx/filectrl.h \
- /usr/include/wx-3.2/wx/mdi.h /usr/include/wx-3.2/wx/gtk/mdi.h
+ /usr/include/wx-3.2/wx/mdi.h /usr/include/wx-3.2/wx/gtk/mdi.h \
+ /usr/include/wx-3.2/wx/notebook.h /usr/include/wx-3.2/wx/bookctrl.h \
+ /usr/include/wx-3.2/wx/withimages.h /usr/include/wx-3.2/wx/imaglist.h \
+ /usr/include/wx-3.2/wx/generic/imaglist.h \
+ /usr/include/wx-3.2/wx/gtk/notebook.h \
+ /home/vboxuser/projects/cs2025client/csACHTControlWidget.h \
+ /usr/include/wx-3.2/wx/statline.h /usr/include/wx-3.2/wx/gtk/statline.h
