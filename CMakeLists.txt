@@ -18,6 +18,10 @@ add_executable(${PROJECT_NAME}
 	csMainControlWidget.cpp
 	csACHTControlWidget.h
 	csACHTControlWidget.cpp
+	csACHTPowerUpWidget.h
+	csACHTPowerUpWidget.cpp
+	csFANPowerUpWidget.h
+	csFANPowerUpWidget.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} ${wxWidgets_LIBRARIES})

@@ -3,7 +3,8 @@
 CsMainFrame::CsMainFrame(wxFrame *frame, const wxString &title)
 	: wxFrame(frame, wxID_ANY,title)
 {
-	SetClientSize(wxSize(600,600));
+	//SetClientSize(wxSize(600,600));
+	Maximize(true);
 
 	wxBoxSizer *backgroundSizer = new wxBoxSizer(wxVERTICAL);
 	wxPanel *backgroundPanel = new wxPanel(this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
@@ -14,11 +15,11 @@ CsMainFrame::CsMainFrame(wxFrame *frame, const wxString &title)
 
 	CsConnectWidget *connectWidget = new CsConnectWidget(backgroundPanel, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
 	//connectWidget->SetBackgroundColour(wxColour(200,0,0));
-	topSizer->Add(connectWidget, 0, wxEXPAND|wxALL);
-	topSizer->Add(0,0,1,wxEXPAND,1);
+	topSizer->Add(connectWidget, 0, wxEXPAND|wxALL, 5);
+	//topSizer->Add(0,0,1,wxEXPAND,1);
 
 	CsMainControlWidget *mainControlWidget = new CsMainControlWidget(backgroundPanel, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
-	topSizer->Add(mainControlWidget, 0, wxEXPAND|wxALL);
+	topSizer->Add(mainControlWidget, 0, wxEXPAND|wxALL, 5);
 	//wxPanel *panel = new wxPanel(backgroundPanel, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
 	//panel->SetBackgroundColour(wxColour(0,200,0));
 	//topSizer->Add(panel, 2, wxEXPAND|wxALL);

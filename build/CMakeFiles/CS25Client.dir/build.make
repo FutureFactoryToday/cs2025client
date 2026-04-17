@@ -142,13 +142,43 @@ CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/projects/cs2025client/csACHTControlWidget.cpp -o CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.s
 
+CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.o: CMakeFiles/CS25Client.dir/flags.make
+CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.o: /home/vboxuser/projects/cs2025client/csACHTPowerUpWidget.cpp
+CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.o: CMakeFiles/CS25Client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.o -MF CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.o.d -o CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.o -c /home/vboxuser/projects/cs2025client/csACHTPowerUpWidget.cpp
+
+CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/projects/cs2025client/csACHTPowerUpWidget.cpp > CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.i
+
+CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/projects/cs2025client/csACHTPowerUpWidget.cpp -o CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.s
+
+CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o: CMakeFiles/CS25Client.dir/flags.make
+CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o: /home/vboxuser/projects/cs2025client/csFANPowerUpWidget.cpp
+CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o: CMakeFiles/CS25Client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o -MF CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o.d -o CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o -c /home/vboxuser/projects/cs2025client/csFANPowerUpWidget.cpp
+
+CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/projects/cs2025client/csFANPowerUpWidget.cpp > CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.i
+
+CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/projects/cs2025client/csFANPowerUpWidget.cpp -o CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.s
+
 # Object files for target CS25Client
 CS25Client_OBJECTS = \
 "CMakeFiles/CS25Client.dir/app.cpp.o" \
 "CMakeFiles/CS25Client.dir/csMainFrame.cpp.o" \
 "CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o" \
 "CMakeFiles/CS25Client.dir/csMainControlWidget.cpp.o" \
-"CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.o"
+"CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.o" \
+"CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.o" \
+"CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o"
 
 # External object files for target CS25Client
 CS25Client_EXTERNAL_OBJECTS =
@@ -158,10 +188,12 @@ CS25Client: CMakeFiles/CS25Client.dir/csMainFrame.cpp.o
 CS25Client: CMakeFiles/CS25Client.dir/csConnectWidget.cpp.o
 CS25Client: CMakeFiles/CS25Client.dir/csMainControlWidget.cpp.o
 CS25Client: CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.o
+CS25Client: CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.o
+CS25Client: CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o
 CS25Client: CMakeFiles/CS25Client.dir/build.make
 CS25Client: CMakeFiles/CS25Client.dir/compiler_depend.ts
 CS25Client: CMakeFiles/CS25Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CS25Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/projects/cs2025client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CS25Client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CS25Client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

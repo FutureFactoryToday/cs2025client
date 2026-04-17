@@ -177,6 +177,30 @@ csACHTControlWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.s
 .PHONY : csACHTControlWidget.cpp.s
 
+csACHTPowerUpWidget.o: csACHTPowerUpWidget.cpp.o
+.PHONY : csACHTPowerUpWidget.o
+
+# target to build an object file
+csACHTPowerUpWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.o
+.PHONY : csACHTPowerUpWidget.cpp.o
+
+csACHTPowerUpWidget.i: csACHTPowerUpWidget.cpp.i
+.PHONY : csACHTPowerUpWidget.i
+
+# target to preprocess a source file
+csACHTPowerUpWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.i
+.PHONY : csACHTPowerUpWidget.cpp.i
+
+csACHTPowerUpWidget.s: csACHTPowerUpWidget.cpp.s
+.PHONY : csACHTPowerUpWidget.s
+
+# target to generate assembly for a file
+csACHTPowerUpWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csACHTPowerUpWidget.cpp.s
+.PHONY : csACHTPowerUpWidget.cpp.s
+
 csConnectWidget.o: csConnectWidget.cpp.o
 .PHONY : csConnectWidget.o
 
@@ -200,6 +224,30 @@ csConnectWidget.s: csConnectWidget.cpp.s
 csConnectWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csConnectWidget.cpp.s
 .PHONY : csConnectWidget.cpp.s
+
+csFANPowerUpWidget.o: csFANPowerUpWidget.cpp.o
+.PHONY : csFANPowerUpWidget.o
+
+# target to build an object file
+csFANPowerUpWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o
+.PHONY : csFANPowerUpWidget.cpp.o
+
+csFANPowerUpWidget.i: csFANPowerUpWidget.cpp.i
+.PHONY : csFANPowerUpWidget.i
+
+# target to preprocess a source file
+csFANPowerUpWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.i
+.PHONY : csFANPowerUpWidget.cpp.i
+
+csFANPowerUpWidget.s: csFANPowerUpWidget.cpp.s
+.PHONY : csFANPowerUpWidget.s
+
+# target to generate assembly for a file
+csFANPowerUpWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.s
+.PHONY : csFANPowerUpWidget.cpp.s
 
 csMainControlWidget.o: csMainControlWidget.cpp.o
 .PHONY : csMainControlWidget.o
@@ -264,9 +312,15 @@ help:
 	@echo "... csACHTControlWidget.o"
 	@echo "... csACHTControlWidget.i"
 	@echo "... csACHTControlWidget.s"
+	@echo "... csACHTPowerUpWidget.o"
+	@echo "... csACHTPowerUpWidget.i"
+	@echo "... csACHTPowerUpWidget.s"
 	@echo "... csConnectWidget.o"
 	@echo "... csConnectWidget.i"
 	@echo "... csConnectWidget.s"
+	@echo "... csFANPowerUpWidget.o"
+	@echo "... csFANPowerUpWidget.i"
+	@echo "... csFANPowerUpWidget.s"
 	@echo "... csMainControlWidget.o"
 	@echo "... csMainControlWidget.i"
 	@echo "... csMainControlWidget.s"

@@ -392,4 +392,6 @@ CMakeFiles/CS25Client.dir/csMainControlWidget.cpp.o: \
  /usr/include/wx-3.2/wx/generic/imaglist.h \
  /usr/include/wx-3.2/wx/gtk/notebook.h \
  /home/vboxuser/projects/cs2025client/csACHTControlWidget.h \
- /usr/include/wx-3.2/wx/statline.h /usr/include/wx-3.2/wx/gtk/statline.h
+ /usr/include/wx-3.2/wx/statline.h /usr/include/wx-3.2/wx/gtk/statline.h \
+ /home/vboxuser/projects/cs2025client/csACHTPowerUpWidget.h \
+ /home/vboxuser/projects/cs2025client/csFANPowerUpWidget.h

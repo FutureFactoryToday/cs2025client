@@ -387,4 +387,6 @@ CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.o: \
  /usr/include/wx-3.2/wx/gtk/filedlg.h \
  /usr/include/wx-3.2/wx/gtk/filectrl.h /usr/include/wx-3.2/wx/filectrl.h \
  /usr/include/wx-3.2/wx/mdi.h /usr/include/wx-3.2/wx/gtk/mdi.h \
- /usr/include/wx-3.2/wx/statline.h /usr/include/wx-3.2/wx/gtk/statline.h
+ /usr/include/wx-3.2/wx/statline.h /usr/include/wx-3.2/wx/gtk/statline.h \
+ /home/vboxuser/projects/cs2025client/csACHTPowerUpWidget.h \
+ /home/vboxuser/projects/cs2025client/csFANPowerUpWidget.h

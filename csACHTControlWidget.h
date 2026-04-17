@@ -3,6 +3,8 @@
 
 #include <wx/wx.h>
 #include <wx/statline.h>
+#include "csACHTPowerUpWidget.h"
+#include "csFANPowerUpWidget.h"
 
 class CsACHTControlWidget : public wxPanel
 {
