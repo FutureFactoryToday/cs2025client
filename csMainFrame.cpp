@@ -3,8 +3,8 @@
 CsMainFrame::CsMainFrame(wxFrame *frame, const wxString &title)
 	: wxFrame(frame, wxID_ANY,title)
 {
-	SetClientSize(wxSize(1200,800));
-	//Maximize(true);
+	//SetClientSize(wxSize(1200,800));
+	Maximize(true);
 
 	wxBoxSizer *backgroundSizer = new wxBoxSizer(wxVERTICAL);
 	wxPanel *backgroundPanel = new wxPanel(this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
