@@ -15,6 +15,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/vboxuser/projects/cs2025client/csFANPowerUpWidget.cpp" "CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o" "gcc" "CMakeFiles/CS25Client.dir/csFANPowerUpWidget.cpp.o.d"
   "/home/vboxuser/projects/cs2025client/csMainControlWidget.cpp" "CMakeFiles/CS25Client.dir/csMainControlWidget.cpp.o" "gcc" "CMakeFiles/CS25Client.dir/csMainControlWidget.cpp.o.d"
   "/home/vboxuser/projects/cs2025client/csMainFrame.cpp" "CMakeFiles/CS25Client.dir/csMainFrame.cpp.o" "gcc" "CMakeFiles/CS25Client.dir/csMainFrame.cpp.o.d"
+  "/home/vboxuser/projects/cs2025client/csTempDisplayWidget.cpp" "CMakeFiles/CS25Client.dir/csTempDisplayWidget.cpp.o" "gcc" "CMakeFiles/CS25Client.dir/csTempDisplayWidget.cpp.o.d"
+  "/home/vboxuser/projects/cs2025client/csTempModeWidget.cpp" "CMakeFiles/CS25Client.dir/csTempModeWidget.cpp.o" "gcc" "CMakeFiles/CS25Client.dir/csTempModeWidget.cpp.o.d"
   "" "CS25Client" "gcc" "CMakeFiles/CS25Client.dir/link.d"
   )
 

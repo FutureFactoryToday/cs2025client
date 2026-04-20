@@ -396,4 +396,6 @@ CMakeFiles/CS25Client.dir/csMainFrame.cpp.o: \
  /home/vboxuser/projects/cs2025client/csACHTControlWidget.h \
  /usr/include/wx-3.2/wx/statline.h /usr/include/wx-3.2/wx/gtk/statline.h \
  /home/vboxuser/projects/cs2025client/csACHTPowerUpWidget.h \
- /home/vboxuser/projects/cs2025client/csFANPowerUpWidget.h
+ /home/vboxuser/projects/cs2025client/csFANPowerUpWidget.h \
+ /home/vboxuser/projects/cs2025client/csTempModeWidget.h \
+ /home/vboxuser/projects/cs2025client/csTempDisplayWidget.h

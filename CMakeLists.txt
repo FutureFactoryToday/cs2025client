@@ -22,6 +22,10 @@ add_executable(${PROJECT_NAME}
 	csACHTPowerUpWidget.cpp
 	csFANPowerUpWidget.h
 	csFANPowerUpWidget.cpp
+	csTempModeWidget.h
+	csTempModeWidget.cpp
+	csTempDisplayWidget.h
+	csTempDisplayWidget.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} ${wxWidgets_LIBRARIES})

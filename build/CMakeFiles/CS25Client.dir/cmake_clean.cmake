@@ -14,6 +14,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/CS25Client.dir/csMainControlWidget.cpp.o.d"
   "CMakeFiles/CS25Client.dir/csMainFrame.cpp.o"
   "CMakeFiles/CS25Client.dir/csMainFrame.cpp.o.d"
+  "CMakeFiles/CS25Client.dir/csTempDisplayWidget.cpp.o"
+  "CMakeFiles/CS25Client.dir/csTempDisplayWidget.cpp.o.d"
+  "CMakeFiles/CS25Client.dir/csTempModeWidget.cpp.o"
+  "CMakeFiles/CS25Client.dir/csTempModeWidget.cpp.o.d"
   "CS25Client"
   "CS25Client.pdb"
 )

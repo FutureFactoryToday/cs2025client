@@ -297,6 +297,54 @@ csMainFrame.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csMainFrame.cpp.s
 .PHONY : csMainFrame.cpp.s
 
+csTempDisplayWidget.o: csTempDisplayWidget.cpp.o
+.PHONY : csTempDisplayWidget.o
+
+# target to build an object file
+csTempDisplayWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csTempDisplayWidget.cpp.o
+.PHONY : csTempDisplayWidget.cpp.o
+
+csTempDisplayWidget.i: csTempDisplayWidget.cpp.i
+.PHONY : csTempDisplayWidget.i
+
+# target to preprocess a source file
+csTempDisplayWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csTempDisplayWidget.cpp.i
+.PHONY : csTempDisplayWidget.cpp.i
+
+csTempDisplayWidget.s: csTempDisplayWidget.cpp.s
+.PHONY : csTempDisplayWidget.s
+
+# target to generate assembly for a file
+csTempDisplayWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csTempDisplayWidget.cpp.s
+.PHONY : csTempDisplayWidget.cpp.s
+
+csTempModeWidget.o: csTempModeWidget.cpp.o
+.PHONY : csTempModeWidget.o
+
+# target to build an object file
+csTempModeWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csTempModeWidget.cpp.o
+.PHONY : csTempModeWidget.cpp.o
+
+csTempModeWidget.i: csTempModeWidget.cpp.i
+.PHONY : csTempModeWidget.i
+
+# target to preprocess a source file
+csTempModeWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csTempModeWidget.cpp.i
+.PHONY : csTempModeWidget.cpp.i
+
+csTempModeWidget.s: csTempModeWidget.cpp.s
+.PHONY : csTempModeWidget.s
+
+# target to generate assembly for a file
+csTempModeWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS25Client.dir/build.make CMakeFiles/CS25Client.dir/csTempModeWidget.cpp.s
+.PHONY : csTempModeWidget.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -327,6 +375,12 @@ help:
 	@echo "... csMainFrame.o"
 	@echo "... csMainFrame.i"
 	@echo "... csMainFrame.s"
+	@echo "... csTempDisplayWidget.o"
+	@echo "... csTempDisplayWidget.i"
+	@echo "... csTempDisplayWidget.s"
+	@echo "... csTempModeWidget.o"
+	@echo "... csTempModeWidget.i"
+	@echo "... csTempModeWidget.s"
 .PHONY : help
 
 

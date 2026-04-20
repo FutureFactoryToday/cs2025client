@@ -1,7 +1,7 @@
-CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.o: \
- /home/vboxuser/projects/cs2025client/csACHTControlWidget.cpp \
+CMakeFiles/CS25Client.dir/csTempModeWidget.cpp.o: \
+ /home/vboxuser/projects/cs2025client/csTempModeWidget.cpp \
  /usr/include/stdc-predef.h \
- /home/vboxuser/projects/cs2025client/csACHTControlWidget.h \
+ /home/vboxuser/projects/cs2025client/csTempModeWidget.h \
  /usr/include/wx-3.2/wx/wx.h /usr/include/wx-3.2/wx/defs.h \
  /usr/include/wx-3.2/wx/platform.h /usr/include/wx-3.2/wx/compiler.h \
  /usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.2/wx/setup.h \
@@ -386,9 +386,4 @@ CMakeFiles/CS25Client.dir/csACHTControlWidget.cpp.o: \
  /usr/include/wx-3.2/wx/valtext.h /usr/include/wx-3.2/wx/filedlg.h \
  /usr/include/wx-3.2/wx/gtk/filedlg.h \
  /usr/include/wx-3.2/wx/gtk/filectrl.h /usr/include/wx-3.2/wx/filectrl.h \
- /usr/include/wx-3.2/wx/mdi.h /usr/include/wx-3.2/wx/gtk/mdi.h \
- /usr/include/wx-3.2/wx/statline.h /usr/include/wx-3.2/wx/gtk/statline.h \
- /home/vboxuser/projects/cs2025client/csACHTPowerUpWidget.h \
- /home/vboxuser/projects/cs2025client/csFANPowerUpWidget.h \
- /home/vboxuser/projects/cs2025client/csTempModeWidget.h \
- /home/vboxuser/projects/cs2025client/csTempDisplayWidget.h
+ /usr/include/wx-3.2/wx/mdi.h /usr/include/wx-3.2/wx/gtk/mdi.h

@@ -5,6 +5,8 @@
 #include <wx/statline.h>
 #include "csACHTPowerUpWidget.h"
 #include "csFANPowerUpWidget.h"
+#include "csTempModeWidget.h"
+#include "csTempDisplayWidget.h"
 
 class CsACHTControlWidget : public wxPanel
 {

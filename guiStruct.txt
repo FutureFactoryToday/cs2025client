@@ -5,6 +5,7 @@ app.cpp/
 	|-csMainControlWidget
 		|-csACHTControlWidget
 			|-csACHTPowerUpWidget
+			|-csFANPowerUpWidget
 			|-csACHTModeControlWidget
 		|-csACTUATORControlWidget
 		|-csILLUMINATORControlWidget
