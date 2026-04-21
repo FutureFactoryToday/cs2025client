@@ -3,10 +3,11 @@
 
 #include <wx/wx.h>
 #include <wx/statline.h>
+#include "csTempDisplayWidget.h"
 #include "csACHTPowerUpWidget.h"
 #include "csFANPowerUpWidget.h"
 #include "csTempModeWidget.h"
-#include "csTempDisplayWidget.h"
+
 
 class CsACHTControlWidget : public wxPanel
 {
