@@ -5,25 +5,25 @@ CsIllumControlWidget::CsIllumControlWidget(wxWindow *parent, wxWindowID id, cons
 {
 	wxBoxSizer *backgroundSizer = new wxBoxSizer(wxVERTICAL);
 
-	wxStaticBoxSizer *nm800 = new wxStaticBoxSizer(wxHORIZONTAL, this, wxT("800 nm"));
-	wxStaticBoxSizer *nm365 = new wxStaticBoxSizer(wxHORIZONTAL, this, wxT("365 nm"));
-	wxStaticBoxSizer *visible = new wxStaticBoxSizer(wxHORIZONTAL, this, wxT("visible"));
+	wxStaticBoxSizer *nm800Sizer = new wxStaticBoxSizer(wxHORIZONTAL, this, wxT("800 nm"));
+	wxStaticBoxSizer *nm365Sizer = new wxStaticBoxSizer(wxHORIZONTAL, this, wxT("365 nm"));
+	wxStaticBoxSizer *visibleSizer = new wxStaticBoxSizer(wxHORIZONTAL, this, wxT("visible"));
 	wxStaticLine *spacer_1 = new wxStaticLine(this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxLI_HORIZONTAL);	
 	wxStaticLine *spacer_2 = new wxStaticLine(this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxLI_HORIZONTAL);		
 
-	backgroundSizer->Add(nm800, 0, wxEXPAND|wxALL, 20);
+	backgroundSizer->Add(nm800Sizer, 0, wxEXPAND|wxALL, 20);
 	backgroundSizer->Add(spacer_1, 0, wxEXPAND|wxRIGHT|wxLEFT, 5);
-	backgroundSizer->Add(nm365, 0, wxEXPAND|wxALL, 20);
+	backgroundSizer->Add(nm365Sizer, 0, wxEXPAND|wxALL, 20);
 	backgroundSizer->Add(spacer_2, 0, wxEXPAND|wxRIGHT|wxLEFT, 5);
-	backgroundSizer->Add(visible, 0, wxEXPAND|wxALL, 20);
+	backgroundSizer->Add(visibleSizer, 0, wxEXPAND|wxALL, 20);
 
-	CsACHTPowerUpWidget *acht = new CsACHTPowerUpWidget(this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
-	CsFANPowerUpWidget *fan = new CsFANPowerUpWidget(this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
-	CsTempModeWidget *temp = new CsTempModeWidget(this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
+	CsIllumModeWidget *nm800ControlPanel = new CsIllumModeWidget(this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
+	CsIllumModeWidget *nm365ControlPanel = new CsIllumModeWidget(this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
+	CsIllumModeWidget *visibleControlPanel = new CsIllumModeWidget(this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
 	
-	nm800->Add(acht, 0, wxEXPAND|wxALL, 15);
-	nm365->Add(fan, 0, wxEXPAND|wxALL, 15);
-	visible->Add(temp, 0, wxEXPAND|wxALL, 15);
+	nm800Sizer->Add(nm800ControlPanel, 0, wxEXPAND|wxALL, 15);
+	nm365Sizer->Add(nm365ControlPanel, 0, wxEXPAND|wxALL, 15);
+	visibleSizer->Add(visibleControlPanel, 0, wxEXPAND|wxALL, 15);
 		
 	this->SetSizer(backgroundSizer);
 }

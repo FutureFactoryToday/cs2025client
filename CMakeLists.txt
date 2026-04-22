@@ -32,6 +32,8 @@ add_executable(${PROJECT_NAME}
 	csAxisDisplayWidget.cpp
 	csIllumControlWidget.h
 	csIllumControlWidget.cpp
+	csIllumModeWidget.h
+	csIllumModeWidget.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} ${wxWidgets_LIBRARIES})

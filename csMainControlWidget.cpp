@@ -6,10 +6,7 @@ CsMainControlWidget::CsMainControlWidget(wxWindow *parent, wxWindowID id, const 
 	wxBoxSizer *backgroundSizer = new wxBoxSizer(wxVERTICAL);
 	
 	controlNotebook = new wxNotebook(this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxNB_TOP|wxNB_NOPAGETHEME);
-	
 
-	//wxPanel *notebookPanel = new wxPanel(controlNotebook, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL);
-	
 	CsACHTControlWidget *acht = new CsACHTControlWidget(controlNotebook, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL); 
 	CsAxisControlWidget *axis = new CsAxisControlWidget(controlNotebook, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL); 
 	CsIllumControlWidget *illum = new CsIllumControlWidget(controlNotebook, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL); 
@@ -17,22 +14,22 @@ CsMainControlWidget::CsMainControlWidget(wxWindow *parent, wxWindowID id, const 
 	controlNotebook->AddPage(acht, wxT("ACHT"));
        	controlNotebook->AddPage(axis, wxT("ACTUATOR"));
 	controlNotebook->AddPage(illum, wxT("ILLUMINATOR"));
-	controlNotebook->Bind(wxEVT_NOTEBOOK_PAGE_CHANGED, &CsMainControlWidget::OnNotePageSizeChanged, this);
+//	controlNotebook->Bind(wxEVT_NOTEBOOK_PAGE_CHANGED, &CsMainControlWidget::OnNotePageSizeChanged, this);
 	
 	backgroundSizer->Add(controlNotebook, 0, wxEXPAND|wxALL, 5);
 	SetSizer(backgroundSizer);
 }
 
 
-void CsMainControlWidget::OnNotePageSizeChanged(wxBookCtrlEvent &event)
-{
-	wxWindow *page = controlNotebook->GetPage(event.GetSelection());
-
-	if(page)
-	{
-		wxSize bestSize = page->GetBestSize();
-		controlNotebook->SetMinSize(bestSize);
-		this->Layout();
-		this->Fit();
-	}
-}
+//void CsMainControlWidget::OnNotePageSizeChanged(wxBookCtrlEvent &event)
+//{
+//	wxWindow *page = controlNotebook->GetPage(event.GetSelection());
+//
+//	if(page)
+//	{
+//		wxSize bestSize = page->GetBestSize();
+//		controlNotebook->SetMinSize(bestSize);
+//		this->Layout();
+//		this->Fit();
+//	}
+//}

@@ -15,7 +15,7 @@ private:
 
 	wxNotebook *controlNotebook;
 	
-	void OnNotePageSizeChanged(wxBookCtrlEvent &event);
+	//void OnNotePageSizeChanged(wxBookCtrlEvent &event);
 };
 
 #endif // CSMAINCONTROLWIDGET_H

@@ -3,6 +3,7 @@
 
 #include <wx/wx.h>
 #include <wx/statline.h>
+#include "csIllumModeWidget.h"
 #include "csACHTPowerUpWidget.h"
 #include "csFANPowerUpWidget.h"
 #include "csTempModeWidget.h"
