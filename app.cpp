@@ -4,7 +4,7 @@
 class CSapp : public wxApp {
 public:
 	virtual bool OnInit() {
-		CsMainFrame *mainFrame = new CsMainFrame(NULL, "CS25 Client");
+		CsMainFrame *mainFrame = new CsMainFrame(NULL, wxT("CS25 Client"));
 		mainFrame->Show(true);
 		return true;
 	}

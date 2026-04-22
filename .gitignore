@@ -8,9 +8,9 @@
 !*/
 
 # 3)Source exception
-!*.txt
+!CMakeList.txt
 !*.h
 !*.cpp
 
 # 4)Resource exception
-!*resource:/
+!resource/
